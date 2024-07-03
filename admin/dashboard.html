@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        if (!sessionStorage.getItem("digitech")) {
+            window.location.replace("./");
+        }
+    </script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <title>digitechz &#8211; Dashboard</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="../assets/img/favicon/apple-touch-icon/apple-touch-icon-iphone-60x60.png">
+    <link rel="apple-touch-icon" sizes="60x60"
+        href="../assets/img/favicon/apple-touch-icon/apple-touch-icon-ipad-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="../assets/img/favicon/apple-touch-icon/apple-touch-icon-iphone-retina-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="../assets/img/favicon/apple-touch-icon/apple-touch-icon-ipad-retina-152x152.png">
+
+    <!--Manifest -->
+    <link rel="manifest" href="../assets/img/favicon/site.webmanifest" />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto scrollto"><a rel="noopener noreferrer" href="../#"><img src="../assets/img/logo.png"
+                        alt="diigitech" title="digitech"></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a rel="noopener noreferrer" href="index.html" class="logo me-auto"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="../#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="../pages/about/#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="../pages/services/#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="../pages/services/#clients">Clients</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+                    <!-- <li class="dropdown"><a rel="noopener noreferrer" href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a rel="noopener noreferrer" href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a rel="noopener noreferrer" href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a rel="noopener noreferrer" href="#">Deep Drop Down 1</a></li>
+                  <li><a rel="noopener noreferrer" href="#">Deep Drop Down 2</a></li>
+                  <li><a rel="noopener noreferrer" href="#">Deep Drop Down 3</a></li>
+                  <li><a rel="noopener noreferrer" href="#">Deep Drop Down 4</a></li>
+                  <li><a rel="noopener noreferrer" href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a rel="noopener noreferrer" href="#">Drop Down 2</a></li>
+              <li><a rel="noopener noreferrer" href="#">Drop Down 3</a></li>
+              <li><a rel="noopener noreferrer" href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+                    <li><a class="nav-link scrollto" href="../pages/contact/#contact">Contact</a></li>
+                    <li><a class="getstarted scrollto" href="../courses/">Join Training</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+
+    <main id="main">
+
+        <!-- ======= Courses ======= -->
+        <section id="courses" class="courses section-bg" style="padding-top: 120px;">
+            <div class="container" data-aos="fade-down">
+
+                <div class="section-title">
+                    <h2>Messages</h2>
+                </div>
+
+                <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <a style="color: #d81921; font-weight: bold;" class="nav-item nav-link active" id="nav-home-tab"
+                            data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Contact Messages
+                        </a>
+                        <a style="color: #d81921; font-weight: bold;" class="nav-item nav-link" id="nav-profile-tab"
+                            data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Enroll Course Messages</a>
+                    </div>
+                </nav>
+                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="table-responsive">
+                            <table class="table table-hover text-center text-capitalize">
+                                <thead>
+                                    <tr>
+                                        <th width="5%" scope="col">No.</th>
+                                        <th width="10%" scope="col">Name</th>
+                                        <th width="15%" scope="col">Email</th>
+                                        <th width="10%" scope="col">Contact</th>
+                                        <th width="20%" scope="col">Subject</th>
+                                        <th width="30%" scope="col">Message</th>
+                                        <th width="10%" scope="col">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="contactData">
+                                    <td id="loadingContactData" colspan="6">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="spinner-border text-danger m-5 p-5" role="status">
+                                                <span class="sr-only">Loading...</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="table-responsive">
+                            <table class="table table-hover text-center text-capitalize">
+                                <thead>
+                                    <tr>
+                                        <th width="5%" scope="col">No.</th>
+                                        <th width="20%" scope="col">Name</th>
+                                        <th width="15%" scope="col">Education</th>
+                                        <th width="20%" scope="col">Email</th>
+                                        <th width="15%" scope="col">Contact No</th>
+                                        <th width="15%" scope="col">Course</th>
+                                        <th width="10%" scope="col">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="courseData">
+                                    <td id="loadingCourseData" colspan="7">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="spinner-border text-danger m-5 p-5" role="status">
+                                                <span class="sr-only">Loading...</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Courses -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Thanks for visiting
+                            <img src="../assets/img/sections/thanks.png" alt="digitech" title="digitech" class="ml-1"
+                                width="100" height="30" style="margin-top: -5px;" />
+                        </h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>
+                            <img src="../assets/img/sections/footer.png" alt="digitech" title="digitech" class=""
+                                width="100" height="30" style="margin-top: -5px;" />
+                        </h3>
+                        <p>
+                            4,5 Block L, Abdul Haque Rd <br>
+                            Phase 2 Johar Town<br>
+                            Lahore, Pakistan <br><br>
+                            <strong>Phone:</strong> +92 309 0855 822<br>
+                            <strong>Email:</strong> digitechzofficial@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#hero">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/about/#about">About</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#services">Services</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#clients">Clients</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/contact/#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#services">Graphic
+                                    Designing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#services">Web
+                                    Design &
+                                    Development</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#services">Search
+                                    Engine
+                                    Optimization</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#services">Social Media
+                                    Marketing</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="scrollto"
+                                    href="../pages/services/#services">Video
+                                    Production</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links text-center">
+                        <h4>Our Social Networks</h4>
+                        <p></p>
+                        <div class="social-links mt-3">
+                            <a rel="noopener noreferrer" href="https://twitter.com/digitec64590991" target="_blank"
+                                class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a rel="noopener noreferrer" href="https://www.facebook.com/digitechz.co" target="_blank"
+                                class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a rel="noopener noreferrer" href="https://instagram.com/digitechz.co?igshid=YmMyMTA2M2Y="
+                                target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a rel="noopener noreferrer" href="https://wa.me/03090855822" target="_blank"
+                                class="google-plus"><i class="bx bxl-whatsapp"></i></a>
+                            <a rel="noopener noreferrer" href="https://www.linkedin.com/company/digitechz.co/"
+                                target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                Copyright &copy; 2022 –<span class="text-light">digitechz</span> <!--<strong><span class="text-danger">d</span><span
+                        class="text-light">igi</span><span class="text-danger">techz</span></strong>-->. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by <a rel="noopener noreferrer" href="../#" class="scrollto">
+                    <img src="../assets/img/sections/footer.png" alt="digitech" title="digitech" class="ml-1" width="70"
+                        height="20" style="margin-top: -5px;" />
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a rel="noopener noreferrer" href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            let spinner = true;
+            let courseDataLength = 0;
+            let contactDataLength = 0;
+            fetchContactData();
+            fetchCourseData();
+
+            function printDate(str) {
+                var result = str.split(',').map(e => e.split(','));
+                return result[0][0];
+            }
+
+            function fetchContactData() {
+                let contactData = $("#contactData");
+                if(spinner){
+                   $('#loadingContactData').css("display", "block");
+                   spinner = false;
+                }
+                $.ajax({
+                    url: "http://digitechz.co/backend/apis/Contact/read.php",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    type: "GET",
+                    dataType: "json",
+                    success: function ({ data }) {
+                        $('#loadingContactData').css("display", "none");
+                        if (contactDataLength === 0) {
+                            contactDataLength = data.length;
+                            data.map((contact, index) => {
+                                contactData.append(
+                                    "<tr><th scope='row'>" +
+                                    parseInt(index + 1) +
+                                    "</th><td>" +
+                                    contact.name +
+                                    "</td><td class='text-lowercase'>" +
+                                    contact.email +
+                                    "</td><td>" +
+                                    contact.contact +
+                                    "</td><td>" +
+                                    contact.subject +
+                                    "</td><td>" +
+                                    contact.message +
+                                    "</td><td>" +
+                                    printDate(contact.date) +
+                                    "</td></tr>"
+                                );
+                            });
+                        } else {
+                            if (contactDataLength !== data.length) {
+                                contactDataLength = data.length;
+                                contactData.empty();
+                                data.map((contact, index) => {
+                                    contactData.append(
+                                        "<tr><th scope='row'>" +
+                                        parseInt(index + 1) +
+                                        "</th><td>" +
+                                        contact.name +
+                                        "</td><td class='text-lowercase'>" +
+                                        contact.email +
+                                        "</td><td>" +
+                                        contact.contact +
+                                        "</td><td>" +
+                                        contact.subject +
+                                        "</td><td>" +
+                                        contact.message +
+                                        "</td><td>" +
+                                        printDate(contact.date) +
+                                        "</td></tr>"
+                                    );
+                                });
+                                contactDataNotification(data[data.length - 1]);
+                            }
+                        }
+                    },
+                });
+                setTimeout(fetchContactData, 1000);
+            }
+
+            function fetchCourseData() {
+                let courseData = $("#courseData");
+                if(spinner){
+                    $('#loadingCourseData').css("display", "block");
+                   spinner = false;
+                }
+                $.ajax({
+                    url: "http://digitechz.co/backend/apis/Course/read.php",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    type: "GET",
+                    dataType: "json",
+                    success: function ({ data }) {
+                        $('#loadingCourseData').css("display", "none");
+                        if (courseDataLength === 0) {
+                            courseDataLength = data.length;
+                            data.map((course, index) => {
+                                courseData.append(
+                                    "<tr><th scope='row'>" +
+                                    parseInt(index + 1) +
+                                    "</th><td>" +
+                                    course.name +
+                                    "</td><td>" +
+                                    course.education +
+                                    "</td><td class='text-lowercase'>" +
+                                    course.email +
+                                    "</td><td>0"+
+                                    course.contact +
+                                    "</td><td>" +
+                                    course.course +
+                                    "</td><td>" +
+                                    printDate(course.date) +
+                                    "</td></tr>"
+                                );
+                            });
+                        } else {
+                            if (courseDataLength !== data.length) {
+                                courseDataLength = data.length;
+                                courseData.empty();
+                                data.map((course, index) => {
+                                    courseData.append(
+                                        "<tr><th scope='row'>" +
+                                        parseInt(index + 1) +
+                                        "</th><td>" +
+                                        course.name +
+                                        "</td><td>" +
+                                        course.education +
+                                        "</td><td class='text-lowercase'>" +
+                                        course.email +
+                                        "</td><td>0" +
+                                        course.contact +
+                                        "</td><td>" +
+                                        course.course +
+                                        "</td><td>" +
+                                        printDate(course.date) +
+                                        "</td></tr>"
+                                    );
+                                });
+                                courseDataNotification(data[data.length - 1]);
+                            }
+                        }
+                    },
+                });
+                setTimeout(fetchCourseData, 1000);
+            }
+
+            if (Notification.permission !== "granted") {
+                Notification.requestPermission();
+            }
+
+            function contactDataNotification(contact) {
+                if (Notification.permission !== "granted") {
+                    Notification.requestPermission();
+                } else {
+                    const options = {
+                        body: `${contact.message}`,
+                        icon: "../assets/img/d.png", // Only for image option => must be 728x360px
+                    };
+                    const notification = new Notification(
+                        `Message By ${contact.name}`,
+                        options
+                    );
+
+                    notification.onclick = function () {
+                        window.open("https://digitechz.co/admin/dashboard.html");
+                    };
+                }
+            }
+
+            function courseDataNotification(course) {
+                if (Notification.permission !== "granted") {
+                    Notification.requestPermission();
+                } else {
+                    const options = {
+                        body: `Request By ${course.name}, Check it now!`,
+                        icon: "../assets/img/d.png", // Only for image option => must be 728x360px
+                    };
+                    const notification = new Notification(
+                        "New request message receive!",
+                        options
+                    );
+
+                    notification.onclick = function () {
+                        window.open("https://digitechz.co/admin/dashboard.html");
+                    };
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
